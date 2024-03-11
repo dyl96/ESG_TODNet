@@ -31,7 +31,7 @@ Download [AI-TODv2](https://drive.google.com/drive/folders/1Er14atDO1cBraBD4DSFO
 python tools/train.py configs_esg/ESG_TODNet/aitodv2_fcos_r50_p2_esg_3x.py
 ```
 
-### 3. Performance
+### 3. Result
 <p align="center">
     <img src="assest/ESG_TODNet.png"/> <br />
 </p>
