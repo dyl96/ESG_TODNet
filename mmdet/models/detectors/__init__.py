@@ -43,9 +43,6 @@ from .yolo import YOLOV3
 from .yolof import YOLOF
 from .yolox import YOLOX
 
-# added by ldy
-from .single_stage_with_hrfe import SingleStageDetector_With_Hrse
-from .single_stage_with_ir import SingleStageDetector_With_IR
 
 __all__ = [
     'ATSS', 'BaseDetector', 'SingleStageDetector', 'TwoStageDetector', 'RPN',
@@ -56,5 +53,5 @@ __all__ = [
     'VFNet', 'DETR', 'TridentFasterRCNN', 'SparseRCNN', 'SCNet', 'SOLO',
     'DeformableDETR', 'AutoAssign', 'YOLOF', 'CenterNet', 'YOLOX',
     'TwoStagePanopticSegmentor', 'PanopticFPN', 'QueryInst', 'LAD', 'TOOD',
-    'MaskFormer', 'Mask2Former',"SingleStageDetector_With_Hrse", "SingleStageDetector_With_IR"
+    'MaskFormer', 'Mask2Former'
 ]
